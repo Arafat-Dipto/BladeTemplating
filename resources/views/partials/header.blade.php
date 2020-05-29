@@ -18,7 +18,7 @@
                                 <li><a href="{{ url('/gallery') }}">Gallery</a></li>
                                 <li><a href="{{ url('/blog') }}">Blog</a>
                                     <ul class="submenu">
-                                        <li><a href="blog.html">Blog</a></li>
+                                        <li><a href="{{ url('/blog') }}">Blog</a></li>
                                         <li><a href="blog_details.html">Blog Details</a></li>
                                         <li><a href="elements.html">Elements</a></li>
                                     </ul>
